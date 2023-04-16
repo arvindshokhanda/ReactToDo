@@ -1,0 +1,28 @@
+.App {
+   text-align: center;
+   margin-top: 2rem;
+}
+.bg_input {
+   background-color: #01c7ee;
+}
+#timer {
+   float: right;
+}
+#flex-display {
+   display: flex;
+   justify-content: space-evenly;
+   font-size: larger;
+   font-weight: 600;
+}
+#content {
+   width: 80%;
+}
+#deleteButton {
+   width: 20%;
+}
+#list_group > :nth-child(odd) {
+   background-color: #79dcf2;
+}
+#list_group > :nth-child(even) {
+   background-color: #f2bab5;
+}
